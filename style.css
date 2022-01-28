@@ -1,8 +1,36 @@
 
 
-body{background:#222222; color:aquamarine; text-align: center;font-family: 'Nerko One', cursive;}
-h2{color:forestgreen; text-transform:uppercase}
-ul,ol{list-style:none; padding:0}
-a{color:orange; text-decoration: none}
-a:hover{text-decoration: underline;text-decoration-color: orange}
-img{width:100px;border-radius: 50px}
+body {
+  background:#222222;
+  color:aquamarine;
+  text-align: center;
+  font-family: 'Nerko One',
+  cursive;
+}
+
+h1 {
+  color:blueviolet;   
+  text-transform:capitalize; 
+  font-style:  oblique}
+
+h2 {
+  color:forestgreen;
+  text-transform:uppercase}
+
+ul,ol{
+  list-style:none;
+  padding:0; }
+
+a {
+  color:orange;
+  text-decoration: none}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: orange}
+
+img {
+  width:100px;
+  border-radius: 50px}
+
+ /*- {element}.{class}#{id} in increasing specificity 
